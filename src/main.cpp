@@ -9,7 +9,7 @@
 #define AWS_IOT_PORT     8883
 
 // ─── MQTT topic ─────────────────────────────────────
-#define MQTT_TOPIC       "home/envmonitor/zoneA"
+#define MQTT_TOPIC       "home/envmonitor/monitoring-device"
 #define CLIENT_ID        "esp32-env-monitor"
 
 // ─── Sensor pins ────────────────────────────────────
