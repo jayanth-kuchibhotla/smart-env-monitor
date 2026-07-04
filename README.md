@@ -71,7 +71,7 @@ AWS IoT Core ──► IoT Rule ──► Lambda (esp32-process-readings)
 
 ![Wiring Diagram](documentation-images/wiring.png)
 
-> The HC-SR04 Echo pin outputs 5V but ESP32 GPIOs are 3.3V tolerant. Three 750Ω resistors in a 1:2 voltage divider (750Ω + 1500Ω) bring the Echo signal down to ~3.3V safely.
+> The HC-SR04 Echo pin outputs 5V but ESP32 GPIOs are 3.3V tolerant. Three 750Ω resistors in a 1:2 voltage divider (1× 750Ω (R1) + 2× 750Ω in series (R2+R3 = 1.5kΩ)) bring the Echo signal down to ~3.3V safely.
 
 ---
 
